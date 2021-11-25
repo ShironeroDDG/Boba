@@ -1,0 +1,164 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body {
+  height: 100%;
+}
+.h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+body{
+    background-color: #380577;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header, main, footer {
+    width: 1040px;
+    margin: auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+#Shoo{
+    margin-top: 150px;
+}
+header{
+    height:120px;    
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    float: left;
+}
+.Pink{
+    color: pink;
+}
+main{
+    padding-bottom: 100px;
+}
+.main__img-float{
+    width: 650px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+.services_img{
+    width: 240px;
+}
+.services_item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.services{
+    padding: 35px 35px 35px 35px;
+
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1-invisible{
+    visibility: hidden;
+}
+.pokemon_go{
+    margin: auto;
+    width: 700px;
+}
+.cont_underline{
+    text-decoration: underline;
+}
+.Vtoroy{
+    margin: auto;
+    width: 700px;
+    line-height: 2;
+}
+.text1{
+    text-align: center;
+}
+.text2{
+    line-height: 1.5;
+}
+.INFO{
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 100px;
+}
+.T{
+    width: 200px;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+.footer_block{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+}
+.footer_icons{
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+.footer_img{
+    width: 50px;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li{
+    display: inline;
+}
+#mainnav a{
+    text-decoration: none;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
+}
+.headermove{
+    text-align: center;
+    font-size: 24px;
+    padding: 50px;
+    list-style: none;
+}
+.menu{
+    list-style: none;
+    display: inline-block;
+}
+.menu li{
+    padding-left: 45px;
+    font-size: x-large;
+    display: inline;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
